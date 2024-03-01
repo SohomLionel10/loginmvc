@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\loginapplication\\views\\action\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|solutionrelative:loginapplication\\views\\action\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|c:\\users\\user-219-pc\\source\\repos\\loginapplication\\loginapplication\\controllers\\actioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|solutionrelative:loginapplication\\controllers\\actioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\loginapplication\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|solutionrelative:loginapplication\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\loginapplication\\models\\formmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|solutionrelative:loginapplication\\models\\formmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\loginapplication\\views\\form\\formpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489AD073-F792-47E6-B55F-D949CBB0DDCD}|LoginApplication\\LoginApplication.csproj|solutionrelative:loginapplication\\views\\form\\formpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Views\\Action\\Login.cshtml",
+              "RelativeDocumentMoniker": "LoginApplication\\Views\\Action\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Views\\Action\\Login.cshtml",
+              "RelativeToolTip": "LoginApplication\\Views\\Action\\Login.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwE4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-01T10:18:30.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActionController.cs",
+              "DocumentMoniker": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Controllers\\ActionController.cs",
+              "RelativeDocumentMoniker": "LoginApplication\\Controllers\\ActionController.cs",
+              "ToolTip": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Controllers\\ActionController.cs",
+              "RelativeToolTip": "LoginApplication\\Controllers\\ActionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T10:17:46.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formpage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Views\\Form\\formpage.cshtml",
+              "RelativeDocumentMoniker": "LoginApplication\\Views\\Form\\formpage.cshtml",
+              "ToolTip": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Views\\Form\\formpage.cshtml",
+              "RelativeToolTip": "LoginApplication\\Views\\Form\\formpage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T07:18:56.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formmodal.cs",
+              "DocumentMoniker": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Models\\formmodal.cs",
+              "RelativeDocumentMoniker": "LoginApplication\\Models\\formmodal.cs",
+              "ToolTip": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Models\\formmodal.cs",
+              "RelativeToolTip": "LoginApplication\\Models\\formmodal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T07:18:03.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "LoginApplication\\Controllers\\FormController.cs",
+              "ToolTip": "C:\\Users\\User-219-PC\\source\\repos\\LoginApplication\\LoginApplication\\Controllers\\FormController.cs",
+              "RelativeToolTip": "LoginApplication\\Controllers\\FormController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T07:17:08.397Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

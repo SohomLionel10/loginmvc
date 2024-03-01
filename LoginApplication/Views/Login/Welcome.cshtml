@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<style>
+
+    h2 {
+        text-align:center;
+        margin-top:30px;
+    }
+
+    h2.dashbrd span {
+        color:red;
+    }
+
+    .btn-grp .btnmp {
+        width:180px;
+        margin:0 auto;
+        background:red;
+        color:#fff;
+        height:45px;
+        line-height:45px;
+        display:block;
+        text-decoration:none;
+        text-align:center;
+    }
+
+</style>
+
+<h2 class="dashbrd">Welcome to Dashboard <span>@ViewBag.Email</span></h2>
+
+<div class="btn-grp mt-4">
+    <a href="@Url.Action("ReturnToLogin", "LoginController")" class="btnmp">Return to Login</a>
+</div>
+

@@ -1,0 +1,32 @@
+﻿@model LoginApplication.Models.Register
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<h2>Dashboard Details</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Salutation</th>
+            <th scope="col">Firstname</th>
+            <th scope="col">Middlename</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">Qualification</th>
+            <th scope="col">DOB</th>
+            <th scope="col">Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@Model.Salutation</th>
+            <td>@Model.Firstname</td>
+            <td>@Model.Middlename</td>
+            <td>@Model.Lastname</td>
+            <td>@Model.Qualification</td>
+            <td>@Model.DOB</td>
+            <td>@Model.Age</td>
+        </tr>
+    </tbody>
+</table>
+

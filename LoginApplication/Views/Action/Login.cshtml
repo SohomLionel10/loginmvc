@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<form id="loginForm" method="post">
+    <div class="mb-3">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" class="form-control" />
+        <span id="usernameError" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" />
+        <span id="passwordError" class="text-danger"></span>
+    </div>
+    <div>
+        <input type="submit" id="loginButton" value="Login" />
+    </div>
+</form>
+
+<div id="successMessage" class="alert alert-success" style="display: none;">Login Successful!</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#loginForm').submit(function (e) {
+            // Prevent the form from submitting
+            e.preventDefault();
+
+            // Get the values of username and password fields
+            var username = $('#username').val();
+            var password = $('#password').val();
+
+            // Check if both fields are blank
+            if (username.trim() === '' && password.trim() === '') {
+                $('#usernameError').text('Username is required.');
+                $('#passwordError').text('Password is required.');
+            }
+            else if (username.trim() === '') {
+                $('#usernameError').text('Username is required.');
+                $('#passwordError').text('');
+            }
+            else if (password.trim() === '') {
+                $('#passwordError').text('Password is required.');
+                $('#usernameError').text('');
+            }
+            else {
+                // Your logic to validate username and password goes here
+                if (username !== 'admin' || password !== 'welcome') {
+                    $('#usernameError').text('Invalid username or password.');
+                    $('#passwordError').text('');
+                }
+                else {
+                    // Send AJAX request
+                    $.ajax({
+                        type: 'POST',
+                        url: '/Action/Login',
+                        data: { username: username, password: password },
+                        success: function (response) {
+                            // Check if response is successful
+                            if (response === 'success') {
+                                // Display success message
+                                $('#successMessage').show();
+                            } else {
+                                // Display error message
+                                $('#usernameError').text('An error occurred. Please try again later.');
+                                $('#passwordError').text('');
+                            }
+                        },
+                        error: function () {
+                            // Display error message
+                            $('#usernameError').text('An error occurred. Please try again later.');
+                            $('#passwordError').text('');
+                        }
+                    });
+                }
+            }
+        });
+    });
+</script>
